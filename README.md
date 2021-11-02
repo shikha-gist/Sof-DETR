@@ -17,9 +17,10 @@ The following architecture represents our proposed model Sof-DETR for Image Capt
 -tensorflow-gpu 2.3.0
 -requests 2.24.0
 </pre>
-**Detection using Sof-DETR**: 
+
 ## Testing
-We have provided the Jupyter Notebook for better visualization of the predicted class and bounding boxes and classes.\
+We have provided the Jupyter Notebooks for better visualization of the predicted class and bounding boxes and classes.\ 
+Our jupyter notebooks also display the self-attention maps and decoder feature maps.\
 Two Jupyter Notebooks are provided :
 1. test_sof-detr.ipynb
 2. sof-detr_attention.ipynb
@@ -27,6 +28,10 @@ Two Jupyter Notebooks are provided :
 
 
 
+## Sof-DETR Evaluation on MSCOCO Detection Dataset 2017
+Model |AP-all | AP-50| AP-75 | AP-Small | AP-Medium | AP-Large 
+--- | --- | --- | --- |--- |--- |--- 
+SOF-DETR (Resnet-50) | 42.7 | 61.8 | 45.4 | 21.7 | 45.9 | 61.5
 
 
 

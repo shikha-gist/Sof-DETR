@@ -3,7 +3,7 @@ This repository contains PyTorch implemetation of the paper "Improving Small Obj
 If you find our paper or provided codes helpful in your research, then please do not forget to cite our paper. Thank you! \
 The following architecture represents our proposed model Sof-DETR for Object Detection. 
 
-![alt text](https://github.com/shikha-gist/Sof-DETR/blob/main/model/sof-detr_model.png)
+![alt text](https://github.com/shikha-gist/Sof-DETR/blob/main/model/sof-detr_model.JPG)
 
 ## Requirements
 <pre>

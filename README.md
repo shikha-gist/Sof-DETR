@@ -28,17 +28,22 @@ Two Jupyter Notebooks are provided :
 
 
 
-## Sof-DETR Evaluation on MSCOCO Detection Dataset 2017
+## Sof-DETR Evaluation on MSCOCO Detection Dataset 2017  (val set)
 Model |AP-all | AP-50| AP-75 | AP-Small | AP-Medium | AP-Large 
 --- | --- | --- | --- |--- |--- |--- 
 SOF-DETR (Resnet-50) | 42.7 | 61.8 | 45.4 | 21.7 | 45.9 | 61.5
+
+## Sof-DETR Online Evaluation on MSCOCO Detection Dataset 2017  (test-dev set)
+Model |AP-all | AP-50| AP-75 | AP-Small | AP-Medium | AP-Large | AR-max=1 | AR-max=10| AR-max=100 | AR-Small | AR-Medium | AR-Large 
+--- | --- | --- | --- |--- |--- |--- | --- | --- | --- | --- |--- |--- 
+SOF-DETR (Resnet-50) | 43.0 | 62.0 | 46.0 | 21.0 | 46.0 | 59.0  | 34.0 | 55.0 | 59.0  | 32.0 | 64.0  | 81.0 
 
 
 
 ## Citation
 Please cite the following BibTex: 
 
-If you find the paper and this repository helpful, please consider citing our paper. Thank you!
+If you find the paper and this repository helpful, please consider citing our paper [Sof-DETR](https://www.techrxiv.org/articles/preprint/Improving_Small_Objects_Detection_using_Transformer/16921000). Thank you!
 
 
 ## License
